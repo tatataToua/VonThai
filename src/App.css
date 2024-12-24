@@ -62,6 +62,7 @@
   cursor: pointer;
   font-size: 2rem;
   text-align: center;
+  justify-content: center;
 }
 
 .navbar-smallscreen-links li a {
@@ -87,6 +88,10 @@
   }
   .navbar {
     justify-content: space-between;
+  }
+  .title {
+    width: 40%;
+    height: auto;
   }
 }
 
