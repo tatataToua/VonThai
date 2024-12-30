@@ -9,19 +9,19 @@ const Navbar = () => {
             <img src="/onlyElephant.png" className="elephant" alt="elephant"></img>
             </div>
             <ul className="nav">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Menu">Menu</a></li>
-                <li><a href="#About">About</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/Menu">Menu</a></li>
+                <li><a href="/About">About</a></li>
             </ul>
             <div className="nav-smallscreen">
                 <GiHamburgerMenu color="#fff" fontSize={32} className="GiHamburgerMenu" onClick={() => setToggleMenu(true)} />
                 {toggleMenu && (
                     <div className="nav-smallscreen-overlay">
-                        <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
+                        <MdOutlineRestaurantMenu fontSize={28} className="overlay__close" onClick={() => setToggleMenu(false)} />
                         <ul className="navbar-smallscreen-links">
-                            <li><a href="#Home">Home</a></li>
-                            <li><a href="#Menu">Menu</a></li>
-                            <li><a href="#About">About</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Menu">Menu</a></li>
+                            <li><a href="/About">About</a></li>
                         </ul>
                     </div>
                 )}
