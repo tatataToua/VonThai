@@ -18,6 +18,9 @@ const Introduction = () => {
         belly, every dish is crafted with care, passion, and the finest
         ingredients.
       </p>
+
+      <img src="/pork.png" className="curry" alt="curry"></img>
+
     </div>
   );
 };
