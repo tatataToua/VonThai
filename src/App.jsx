@@ -16,8 +16,8 @@ function App() {
             </>
           }
         />
-        <Route path="/Menu" element={<Menu />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </Router>
