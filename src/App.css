@@ -65,6 +65,7 @@ body {
   font-size: 2rem;
   text-align: center;
   justify-content: center;
+  transform: translateX(-1rem);
 }
 
 .navbar-smallscreen-links li a {
