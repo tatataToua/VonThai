@@ -60,12 +60,13 @@ body {
 
 .navbar-smallscreen-links li {
   list-style: none;
-  margin: 2rem;
+  margin: 2rem auto;
+  padding-bottom: 20px;
   cursor: pointer;
   font-size: 2rem;
   text-align: center;
-  justify-content: center;
   transform: translateX(-1rem);
+  width: 100px;
 }
 
 .navbar-smallscreen-links li a {
@@ -138,6 +139,7 @@ body {
   justify-content: center;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  padding-top: 4rem;
 }
 
 .intro-paragraph, .about-paragraph {
@@ -146,6 +148,7 @@ body {
   justify-content: center;
   text-align: center;
   font-family: 'Georgia', serif;
+  padding-bottom: 4rem;
 }
 
 .footer {

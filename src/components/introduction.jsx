@@ -19,7 +19,7 @@ const Introduction = () => {
         ingredients.
       </p>
 
-      <img src="/pork.jpg" className="curry" alt="curry"></img>
+      <img src="GoVonThai_SesameChicken.jpg" className="curry" alt="curry"></img>
 
     </div>
   );
