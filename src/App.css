@@ -1,12 +1,12 @@
 body {
-  background-color: rgb(242, 216, 67);
+  background-color: rgb(204, 85, 0);
 }
 .navbar {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(242, 216, 67);
+  background-color: rgb(204, 85, 0);
 }
 
 .nav {
@@ -130,7 +130,7 @@ body {
 
 .intro {
   padding-top: 1rem;
-  background-color: rgb(242, 216, 67);
+  background-color: rgb(204, 85, 0);
   transform: translateY(-1rem);
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .footer {
-  background-color: rgb(242, 216, 67);
+  background-color: rgb(204, 85, 0);
 }
 
 .fa-instagram {
@@ -163,7 +163,7 @@ body {
 
 /* Footer Styles */
 .footer {
-  background-color: rgb(242, 216, 67);
+  background-color: rgb(204, 85, 0);
   color: black;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -204,7 +204,7 @@ body {
 }
 
 .fa-instagram {
-  color: #E4405F;
+  color: #ff0000;
 }
 
 .fa-facebook {
